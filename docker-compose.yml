@@ -18,6 +18,6 @@ services:
     ports:
       - 8080:80
     environment:
-      - HOSTNAME = 127.0.0.1
+      - HOSTNAME = https://google-classroom-0xv7.onrender.com/
     env_file:
       - env.env
